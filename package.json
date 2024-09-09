@@ -1,10 +1,9 @@
 {
-  "name": "client",
+  "name": "database-client",
   "author": "Travis Burandt",
   "description": "",
   "version": "1.0.0",
-  "main": "dist/index.js",
-  "type": "module",
+  "main": "index.ts",
   "scripts": {
     "build": "tsc",
     "start": "ts-node index.ts",
@@ -12,9 +11,5 @@
   },
   "dependencies": {
     "axios": "^1.7.7"
-  },
-  "devDependencies": {
-    "ts-node": "^10.9.2",
-    "typescript": "^5.5.4"
   }
 }
