@@ -147,4 +147,3 @@ class DatabaseClient {
     }
 }
 exports.DatabaseClient = DatabaseClient;
-//# sourceMappingURL=index.js.map
